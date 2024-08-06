@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const specialPhrase = "Ти особлива"; // "Eres especial" en ucraniano
     const spanishWords = [
-        "cómo estuvo tu día  How was your day",
+        "cómo estuvo tu día 》》》 How was your day",
         // Añade más palabras aquí
     ];
 
