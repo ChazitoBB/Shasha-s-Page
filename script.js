@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
         "You are amazing just the way you are.",
-       // "Every moment with you is a treasure.",
-        //"Your smile lights up my world.",
+        "Every moment with you is a treasure.",
+        "Your smile lights up my world.",
         // Añade más frases aquí
     ];
 
