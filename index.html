@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For A Special Girl</title>
+    <title>Sasha´s Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <div class="container">
-        <h1>For A Special Girl</h1>
-        <div id="phrases">
-            <!-- Aquí se insertarán las frases -->
+        <h1>For A Beautiful Girl</h1>
+        <div class="swiper-container">
+            <div class="swiper-wrapper" id="phrases">
+                <!-- Aquí se insertarán las frases -->
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
         <div id="special-phrase">
             <!-- Aquí se resaltará la frase especial en ucraniano -->
@@ -19,9 +23,13 @@
             <p class="phrase-of-the-day">Phrase of the Day</p>
             <!-- Aquí se insertará la palabra en español -->
         </div>
+        <div class="song-name">
+            <p>Song: Pensando en ti by LÚA</p>
+        </div>
     </div>
-    <audio id="background-music" src="music/Me Gustas Tu.mp3" loop></audio>
+    <audio id="background-music" src="music/LÚA - Pensando en ti.mp3" loop></audio>
     <div class="footer">Powered by ChAz</div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-image: url('/img/beautiful-background.jpg');
+    background-image: url('img/beautiful-background2.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; /* El fondo permanecerá fijo */
     margin: 0;
     display: flex;
     align-items: center;
@@ -12,6 +12,7 @@ body {
     color: #fff;
     text-align: center;
     flex-direction: column;
+    overflow: hidden; /* Evitar desplazamiento de la página */
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     max-width: 80%;
+    overflow: hidden; /* Asegurarse de que el contenido no desborde */
 }
 
 h1 {
@@ -26,14 +28,24 @@ h1 {
     margin-bottom: 20px;
 }
 
-#phrases, #special-phrase, #spanish-word {
-    margin: 20px 0;
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Ajustar el espacio entre el slider y el resto del contenido */
+}
+
+.swiper-slide {
     font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
 }
 
 #special-phrase {
     font-size: 1.8em;
     font-weight: bold;
+    margin: 20px 0;
 }
 
 .phrase-of-the-day {
@@ -41,6 +53,12 @@ h1 {
     margin-bottom: 10px;
     font-weight: bold;
     color: #ffeb3b; /* Color amarillo para resaltar */
+}
+
+.song-name {
+    margin: 20px 0;
+    font-size: 1em;
+    color: #ccc;
 }
 
 .footer {
@@ -60,7 +78,7 @@ h1 {
         font-size: 2em;
     }
 
-    #phrases, #special-phrase, #spanish-word {
+    .swiper-slide {
         font-size: 1em;
     }
 
@@ -70,6 +88,10 @@ h1 {
 
     .phrase-of-the-day {
         font-size: 1em;
+    }
+
+    .song-name {
+        font-size: 0.8em;
     }
 
     .footer {

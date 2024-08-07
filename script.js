@@ -1,14 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "You are amazing just the way you are.",
-       "Every moment with you is a treasure.",
-        //"Your smile lights up my world.",
+        "I can't wait to see you again.",
+        "You make every day better.",
+        "You are the sunshine in my life.",
+        "I love every little thing about you."
         // Añade más frases aquí
     ];
 
-    const specialPhrase = "Ти особлива"; // "Eres especial" en ucraniano
+    const specialPhrase = "Ти найкраща дівчина у світі"; // "Eres la mejor chica del mundo" en ucraniano
     const spanishWords = [
-        "cómo estuvo tu día  How was your day",
+        "Te extraño 》》》 I miss you",
+        "Buenos días 》》》 Good morning",
+        "Buenas noches 》》》 Good night"
         // Añade más palabras aquí
     ];
 
@@ -17,11 +20,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const spanishWordContainer = document.getElementById('spanish-word');
     const backgroundMusic = document.getElementById('background-music');
 
-    function updateContent() {
-        const randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
-        const randomWord = spanishWords[Math.floor(Math.random() * spanishWords.length)];
+    // Añadir frases al contenedor Swiper
+    phrases.forEach(phrase => {
+        const slide = document.createElement('div');
+        slide.classList.add('swiper-slide');
+        slide.textContent = phrase;
+        phraseContainer.appendChild(slide);
+    });
 
-        phraseContainer.textContent = randomPhrase;
+    const swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        slidesPerView: 1,
+        spaceBetween: 0, // Sin espacio entre las diapositivas
+        centeredSlides: true,
+    });
+
+    function updateContent() {
+        const randomWord = spanishWords[Math.floor(Math.random() * spanishWords.length)];
         specialPhraseContainer.textContent = specialPhrase;
         spanishWordContainer.innerHTML = `<p class="phrase-of-the-day">Phrase of the Day</p>${randomWord}`;
     }
