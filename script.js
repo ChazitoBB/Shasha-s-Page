@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "You make every day better.",
         "You are the sunshine in my life.",
         "I love every little thing about you."
+
         // Añade más frases aquí
     ];
 
