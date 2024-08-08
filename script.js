@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const specialPhrase = "Ти прекрасна, не забувай про це."; // "Eres Hermosa, no lo olvides" en ucraniano
     const spanishWords = [
-        "Te extraño 》》》 I miss you",
-        "Buenos días 》》》 Good morning",
-        "Buenas noches 》》》 Good night",
+        "¿Tienes Hambre? 》》》 Are you hungry?",
+        "Buenos tardes 》》》 Good afternoon",
+        "Como estuvo tu dia 》》》 How was your day",
         "Hasta mañana 》》》 See you tomorrow"
         // Añade más palabras aquí
     ];
