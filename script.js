@@ -1,24 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "I can't wait to see you again.",
-        "You make every day better.",
-        "You are the sunshine in my life.",
-        "I love every little thing about you."
-
+        "You make my heart skip a beat.",
+        "Don't let a bad moment ruin your day, instead make every moment special.",
+        "I've never met a girl as beautiful as you..",
+        "I cherish every second we spend together."
         // Añade más frases aquí
     ];
 
-    const specialPhrase = "Ти найкраща дівчина у світі"; // "Eres la mejor chica del mundo" en ucraniano
+    const specialPhrase = "Ти прекрасна, не забувай про це."; // "Eres Hermosa, no lo olvides" en ucraniano
     const spanishWords = [
         "Te extraño 》》》 I miss you",
         "Buenos días 》》》 Good morning",
-        "Buenas noches 》》》 Good night"
+        "Buenas noches 》》》 Good night",
+        "Hasta mañana 》》》 See you tomorrow"
         // Añade más palabras aquí
     ];
 
     const phraseContainer = document.getElementById('phrases');
     const specialPhraseContainer = document.getElementById('special-phrase');
-    const spanishWordContainer = document.getElementById('spanish-word');
+    const spanishWordsContainer = document.getElementById('spanish-words');
     const backgroundMusic = document.getElementById('background-music');
 
     // Añadir frases al contenedor Swiper
@@ -29,7 +29,24 @@ document.addEventListener('DOMContentLoaded', () => {
         phraseContainer.appendChild(slide);
     });
 
-    const swiper = new Swiper('.swiper-container', {
+    // Añadir palabras en español al contenedor Swiper
+    spanishWords.forEach(word => {
+        const slide = document.createElement('div');
+        slide.classList.add('swiper-slide');
+        slide.textContent = word;
+        spanishWordsContainer.appendChild(slide);
+    });
+
+    const swiperPhrases = new Swiper('.phrases-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        slidesPerView: 1,
+        spaceBetween: 0, // Sin espacio entre las diapositivas
+        centeredSlides: true,
+    });
+
+    const swiperSpanishWords = new Swiper('.spanish-words-container', {
         pagination: {
             el: '.swiper-pagination',
         },
@@ -39,9 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function updateContent() {
-        const randomWord = spanishWords[Math.floor(Math.random() * spanishWords.length)];
         specialPhraseContainer.textContent = specialPhrase;
-        spanishWordContainer.innerHTML = `<p class="phrase-of-the-day">Phrase of the Day</p>${randomWord}`;
     }
 
     updateContent();
