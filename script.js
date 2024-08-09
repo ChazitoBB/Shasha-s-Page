@@ -1,18 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "You make my heart skip a beat.",
-        "Don't let a bad moment ruin your day, instead make every moment special.",
-        "I've never met a girl as beautiful as you..",
-        "I cherish every second we spend together."
+        "Suffering and crying means living.",
+        "Life is a daring adventure or it is nothing.",
+        "In life, sometimes you win, other times you learn.",
+        "Being with you is my happy place."
         // Añade más frases aquí
     ];
 
-    const specialPhrase = "Ти прекрасна, не забувай про це."; // "Eres Hermosa, no lo olvides" en ucraniano
+    const specialPhrase = "У кожному твоєму жесті я знаходжу поезію і витонченість."; // "En cada uno de tus gestos encuentro poesía y gracia." en ucraniano
     const spanishWords = [
-        "¿Tienes Hambre? 》》》 Are you hungry?",
-        "Buenos tardes 》》》 Good afternoon",
-        "Como estuvo tu dia 》》》 How was your day",
-        "Hasta mañana 》》》 See you tomorrow"
+        "Necesito irme 》》》 I need to go",
+        "Vuelvo en seguida 》》》 I'll be right back",
+        "'¿Trabajas mañana?' 》》》 Do you work tomorrow",
+        "Dulces sueños 》》》 Sweet dreams",
+        "¿Qué hora es? 》》》 What time is it",,
+        "Note: I need more photos of you for the backgrounds",
         // Añade más palabras aquí
     ];
 
