@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "You are the princess I always dreamed of and if you wish it can come true.",
         "You are imperfectly perfect to be the smile of all my days.",
         "You are the woman of my dreams and the love of my life."
-        // Añade más frases aquí
     ];
 
     const specialPhrase = "Я люблю кожну частину, яка становить твою істоту."; // "Amo cada parte que compone tu ser." en ucraniano
@@ -15,13 +14,18 @@ document.addEventListener('DOMContentLoaded', () => {
         "No creo 》》》 I don't think so",
         "Yo creo que si 》》》 I think so",
         "Note: I need more photos of you for the backgrounds",
-        // Añade más palabras aquí
     ];
 
     const phraseContainer = document.getElementById('phrases');
     const specialPhraseContainer = document.getElementById('special-phrase');
     const spanishWordsContainer = document.getElementById('spanish-words');
     const backgroundMusic = document.getElementById('background-music');
+    const backgroundSelector = document.getElementById('backgrounds');
+    
+    // Función para cambiar el fondo
+    backgroundSelector.addEventListener('change', (event) => {
+        document.body.style.backgroundImage = `url('img/${event.target.value}')`;
+    });
 
     // Añadir frases al contenedor Swiper
     phrases.forEach(phrase => {
@@ -44,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
             el: '.swiper-pagination',
         },
         slidesPerView: 1,
-        spaceBetween: 0, // Sin espacio entre las diapositivas
+        spaceBetween: 0, 
         centeredSlides: true,
     });
 
@@ -53,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             el: '.swiper-pagination',
         },
         slidesPerView: 1,
-        spaceBetween: 0, // Sin espacio entre las diapositivas
+        spaceBetween: 0,
         centeredSlides: true,
     });
 
@@ -64,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
     updateContent();
     setInterval(updateContent, 86400000); // Actualiza cada 24 horas
 
-    // Reproducir música de fondo
     backgroundMusic.play().catch(error => {
         console.log("Reproducción automática de música de fondo está bloqueada por el navegador.");
     });
