@@ -1,19 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "Suffering and crying means living.",
-        "Life is a daring adventure or it is nothing.",
-        "In life, sometimes you win, other times you learn.",
-        "Being with you is my happy place."
+        "They told me to go find the most beautiful rose and I found you.",
+        "You are the princess I always dreamed of and if you wish it can come true.",
+        "You are imperfectly perfect to be the smile of all my days.",
+        "You are the woman of my dreams and the love of my life."
         // Añade más frases aquí
     ];
 
-    const specialPhrase = "У кожному твоєму жесті я знаходжу поезію і витонченість."; // "En cada uno de tus gestos encuentro poesía y gracia." en ucraniano
+    const specialPhrase = "Я люблю кожну частину, яка становить твою істоту."; // "Amo cada parte que compone tu ser." en ucraniano
     const spanishWords = [
-        "Necesito irme 》》》 I need to go",
-        "Vuelvo en seguida 》》》 I'll be right back",
-        "'¿Trabajas mañana?' 》》》 Do you work tomorrow",
-        "Dulces sueños 》》》 Sweet dreams",
-        "¿Qué hora es? 》》》 What time is it",,
+        "¿Como estas? 》》》 How are you?",
+        "¿Cómo te despertaste hoy? 》》》 How did you wake up today?",
+        "Tengo hambre 》》》 I'm hungry.",
+        "No creo 》》》 I don't think so",
+        "Yo creo que si 》》》 I think so",
         "Note: I need more photos of you for the backgrounds",
         // Añade más palabras aquí
     ];
