@@ -15,21 +15,36 @@ body {
     overflow: hidden; /* Evitar desplazamiento de la página */
 }
 
-.background-selector {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    border-radius: 5px;
-    color: #fff;
+/* Asegúrate de que el selector de música no se superponga al texto */
+@media (max-width: 768px) {
+    .background-selector {
+        position: relative; /* Cambia la posición a relativa para que pueda moverse más fácilmente */
+        top: auto; /* Resetea la propiedad 'top' */
+        right: auto; /* Resetea la propiedad 'right' */
+        margin: 10px auto; /* Centra el botón y le da margen superior e inferior */
+    }
+
+    .song-selector {
+        position: relative; /* Cambia la posición a relativa para que pueda moverse más fácilmente */
+        margin: 10px auto; /* Centra el botón y le da margen superior e inferior */
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 90%; /* Ajusta el ancho del contenedor para mayor espacio en pantallas pequeñas */
+    }
+
+    h1 {
+        font-size: 2em; /* Ajusta el tamaño del texto del encabezado para pantallas más pequeñas */
+    }
 }
 
-.background-selector label {
+
+.background-selector label, .music-selector label {
     margin-right: 5px;
 }
 
-.background-selector select {
+.background-selector select, .music-selector select {
     background: #000;
     color: #fff;
     border: 1px solid #fff;
@@ -119,4 +134,76 @@ h1 {
     .footer {
         font-size: 0.7em;
     }
+    .view-poem-button {
+        margin: 20px 0;
+    }
+    
+    .button {
+        background-color: #ff6f61; /* Color de fondo del botón */
+        color: #fff; /* Color del texto del botón */
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        display: inline-block;
+    }
+    
+    .button:hover {
+        background-color: #ff3b30; /* Color del botón al pasar el cursor */
+    }
+    .poem-container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        text-align: center;
+        max-height: 80vh; /* Limita la altura máxima del contenedor al 80% de la altura de la ventana */
+        overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido excede la altura */
+    }
+    
+    .poem-container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        text-align: center; /* Cambiado a "center" para centrar el texto */
+    }
+    
+    .poem-container p {
+        font-size: 1.5em;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-align: center; /* Asegura que todo el texto esté centrado */
+        margin: 0; /* Elimina cualquier margen adicional */
+        padding: 0; /* Elimina cualquier padding adicional */
+    }
+    .background-selection, .music-selection {
+        color: #000; /* Cambia el color del texto a negro */
+        font-weight: bold; /* Opcional: para hacer el texto más destacable */
+    }
+    
+    .background-selection:hover, .music-selection:hover {
+        color: #333; /* Un tono ligeramente más claro al pasar el mouse, opcional */
+    }
+        
+    
+    .button {
+        background-color: #ff6f61;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        display: inline-block;
+    }
+    
+    .button:hover {
+        background-color: #ff3b30;
+    }
+    
+        
 }

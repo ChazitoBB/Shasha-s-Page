@@ -21,10 +21,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const spanishWordsContainer = document.getElementById('spanish-words');
     const backgroundMusic = document.getElementById('background-music');
     const backgroundSelector = document.getElementById('backgrounds');
-    
+    const musicSelector = document.getElementById('music');
+
     // Función para cambiar el fondo
     backgroundSelector.addEventListener('change', (event) => {
         document.body.style.backgroundImage = `url('img/${event.target.value}')`;
+    });
+
+    // Función para cambiar la música
+    musicSelector.addEventListener('change', (event) => {
+        backgroundMusic.src = `music/${event.target.value}`;
+        backgroundMusic.play();
     });
 
     // Añadir frases al contenedor Swiper
@@ -68,10 +75,12 @@ document.addEventListener('DOMContentLoaded', () => {
     updateContent();
     setInterval(updateContent, 86400000); // Actualiza cada 24 horas
 
+    // Reproduce la música de fondo al cargar la página
     backgroundMusic.play().catch(error => {
         console.log("Reproducción automática de música de fondo está bloqueada por el navegador.");
     });
 
+    // Reproduce la música al hacer clic en el cuerpo del documento
     document.body.addEventListener('click', () => {
         backgroundMusic.play();
     });
