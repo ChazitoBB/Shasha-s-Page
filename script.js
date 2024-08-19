@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "They told me to go find the most beautiful rose and I found you.",
-        "You are the princess I always dreamed of and if you wish it can come true.",
-        "You are imperfectly perfect to be the smile of all my days.",
-        "You are the woman of my dreams and the love of my life."
+        "Don't be afraid to do things, remember that making mistakes is the same as learning.",
+        "You are stronger than you think, just have faith in yourself.",
+        "You may not believe me but I always miss you, you are very special to me even if you don't believe it.",
+        "You are that mistake I would make a million times."
     ];
 
-    const specialPhrase = "Я люблю кожну частину, яка становить твою істоту."; // "Amo cada parte que compone tu ser." en ucraniano
+    const specialPhrase = "Коли я хочу побачити зірки, мені просто потрібно дивитися в твої очі, тому що Бог використав їх, щоб створити їх."; // "Cuando quiero ver las estrellas sólo necesito mirarte a los ojos porque Dios los usó para crearlos." en ucraniano
     const spanishWords = [
-        "¿Como estas? 》》》 How are you?",
-        "¿Cómo te despertaste hoy? 》》》 How did you wake up today?",
+        "Lo siento 》》》 I´m sorry",
+        "No lo se 》》》 I don´t know",
         "Tengo hambre 》》》 I'm hungry.",
         "No creo 》》》 I don't think so",
         "Yo creo que si 》》》 I think so",

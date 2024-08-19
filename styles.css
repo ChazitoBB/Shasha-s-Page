@@ -180,15 +180,7 @@ h1 {
         margin: 0; /* Elimina cualquier margen adicional */
         padding: 0; /* Elimina cualquier padding adicional */
     }
-    .background-selection, .music-selection {
-        color: #000; /* Cambia el color del texto a negro */
-        font-weight: bold; /* Opcional: para hacer el texto más destacable */
-    }
     
-    .background-selection:hover, .music-selection:hover {
-        color: #333; /* Un tono ligeramente más claro al pasar el mouse, opcional */
-    }
-        
     
     .button {
         background-color: #ff6f61;
