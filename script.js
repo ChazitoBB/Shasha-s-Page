@@ -1,18 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "Don't be afraid to do things, remember that making mistakes is the same as learning.",
-        "You are stronger than you think, just have faith in yourself.",
-        "You may not believe me but I always miss you, you are very special to me even if you don't believe it.",
-        "You are that mistake I would make a million times."
+        "You are the most beautiful woman I have ever met.",
+        "Fight for the life you want, if you don't like the one you have.",
+        "Remember that life is made up of moments, make each one of them unique.",
+        "You are perfect, don't forget it."
     ];
 
-    const specialPhrase = "Коли я хочу побачити зірки, мені просто потрібно дивитися в твої очі, тому що Бог використав їх, щоб створити їх."; // "Cuando quiero ver las estrellas sólo necesito mirarte a los ojos porque Dios los usó para crearlos." en ucraniano
+    const specialPhrase = "Твій блиск золотий, навіть зорі не затьмарять тебе."; // "Tu brillo es dorado, ni siquiera las estrellas te eclipsarán.." en ucraniano
     const spanishWords = [
-        "Lo siento 》》》 I´m sorry",
-        "No lo se 》》》 I don´t know",
-        "Tengo hambre 》》》 I'm hungry.",
-        "No creo 》》》 I don't think so",
-        "Yo creo que si 》》》 I think so",
+        "¿Cómo estás? 》》》 How are you?",
+        "Estoy bien 》》》 I'm fine",
+        "¿Dónde está...? 》》》 Where is...?",
+        "¿Qué hora es? 》》》 What time is it?",
+        "¿Dónde puedo encontrar...? 》》》 Where can I find...?",
+        "¿Cuánto cuesta? 》》》 How much does it cost?",
+        "¿Dónde puedo comer? 》》》 Where can I eat?",
         "Note: I need more photos of you for the backgrounds",
     ];
 
