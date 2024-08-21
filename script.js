@@ -1,21 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "You are the most beautiful woman I have ever met.",
-        "Fight for the life you want, if you don't like the one you have.",
-        "Remember that life is made up of moments, make each one of them unique.",
-        "You are perfect, don't forget it."
+        "Your energy is contagious, it lights up any room you enter.",
+        "I admire your passion and dedication in everything you do.",
+        "Your sense of humor is a breath of fresh air.",
+        "Tienes una manera de hacer que todos los que te rodean se sientan cómodos."
     ];
 
-    const specialPhrase = "Твій блиск золотий, навіть зорі не затьмарять тебе."; // "Tu brillo es dorado, ni siquiera las estrellas te eclipsarán.." en ucraniano
+    const specialPhrase = "Твоя посмішка гарно прикрашає твоє обличчя."; // "Tu sonrisa decora maravillosamente tu rostro." en ucraniano
     const spanishWords = [
-        "¿Cómo estás? 》》》 How are you?",
-        "Estoy bien 》》》 I'm fine",
-        "¿Dónde está...? 》》》 Where is...?",
-        "¿Qué hora es? 》》》 What time is it?",
-        "¿Dónde puedo encontrar...? 》》》 Where can I find...?",
-        "¿Cuánto cuesta? 》》》 How much does it cost?",
-        "¿Dónde puedo comer? 》》》 Where can I eat?",
-        "Note: I need more photos of you for the backgrounds",
+        "¿Cómo puedo hacerte sonreír hoy? 》》》 How can I make you smile today?",
+        "Estoy pensando en ti 》》》 I'm thinking of you",
+        "¿Es hora de verte ya? 》》》 Is it time to see you yet?",
+        "¿Dónde puedo encontrar esos ojos que me hipnotizan? 》》》 Where can I find those eyes that mesmerize me?",
+        "¿Dónde puedo encontrar un lugar tan dulce como tu sonrisa? 》》》 Where can I find a place as sweet as your smile?",
     ];
 
     const phraseContainer = document.getElementById('phrases');
