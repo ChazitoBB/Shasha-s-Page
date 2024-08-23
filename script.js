@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "Your creativity and imagination are truly inspiring.",
-        "The strength and grace you carry is admirable.",
-        "Your kindness and compassion for others is a gift.",
-        "You are not only beautiful on the outside but also on the inside."
+        "Your ability to think outside the box is remarkable.",
+        "Your resilience and elegance shine through every challenge.",
+        "The empathy and care you show to others make a difference.",
+        "Your inner and outer beauty are both captivating."
     ];
 
-    const specialPhrase = "Треба питати Бога, чи не впав ангел згори, бо маєш обличчя, бракує тільки крил."; // "Tu sonrisa decora maravillosamente tu rostro." en ucraniano
+    const specialPhrase = "Ви змушуєте троянди боротися, щоб стати вашою брошкою."; // "Haces que las rosas peleen por ser tu broche." en ucraniano
     const spanishWords = [
-        "¿Qué tal? 》》》 What's up?",
-        "Todo en orden 》》》 Everything's fine",
-        "¿Puedes decirme dónde está...? 》》》 Can you tell me where...?",
-        "¿Tienes la hora? 》》》 Do you have the time?",
-        "¿Hay algún lugar para comer cerca? 》》》 Is there a place to eat nearby?",
+        "¿Cómo va todo? 》》》 How's everything going?",
+        "Todo bien por aquí 》》》 All good over here",
+        "¿Sabes dónde puedo encontrar...? 》》》 Do you know where I can find...?",
+        "¿Sabes qué hora es? 》》》 Do you know what time it is?",
+        "¿Conoces un buen sitio para comer por aquí? 》》》 Do you know a good place to eat around here?",
     ];
 
     const phraseContainer = document.getElementById('phrases');
