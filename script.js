@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "Your ability to think outside the box is remarkable.",
-        "Your resilience and elegance shine through every challenge.",
-        "The empathy and care you show to others make a difference.",
-        "Your inner and outer beauty are both captivating."
+        "Without being what I was looking for, you ended up being what I needed.",
+        "There are not enough words to express how much I love you.",
+        "My heart beats faster when you're near.",
+        "I'd rather spend a minute with you than a lifetime without you."
     ];
 
-    const specialPhrase = "Ви змушуєте троянди боротися, щоб стати вашою брошкою."; // "Haces que las rosas peleen por ser tu broche." en ucraniano
+    const specialPhrase = "Ваш інтелект і кмітливість не перестають мене дивувати."; // "Tu inteligencia e ingenio nunca dejan de sorprenderme." en ucraniano
     const spanishWords = [
-        "¿Cómo va todo? 》》》 How's everything going?",
-        "Todo bien por aquí 》》》 All good over here",
-        "¿Sabes dónde puedo encontrar...? 》》》 Do you know where I can find...?",
-        "¿Sabes qué hora es? 》》》 Do you know what time it is?",
-        "¿Conoces un buen sitio para comer por aquí? 》》》 Do you know a good place to eat around here?",
+        "Te voy a extrañar mucho 》》》 I'm going to miss you so much",
+        "Por favor no fumes tanto 》》》 Please don't smoke so much",
+        "Eres perfecta tal como eres, no lo olvides 》》》 You are perfect just the way you are, don't forget that.",
+        "Espero verte pronto 》》》 I hope to see you soon",
+        "Nunca olvides sorreir, lo haces de maravilla 》》》 Never forget to smile, you do it wonderfully.",
     ];
 
     const phraseContainer = document.getElementById('phrases');

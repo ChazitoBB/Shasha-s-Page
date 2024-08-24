@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-image: url('img/beautiful-background7.jpg');
+    background-image: url('img/beautiful-background8.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* El fondo permanecerá fijo */
@@ -198,4 +198,28 @@ h1 {
     }
     
         
+    /* Asegúrate de agregar estas reglas a tu CSS existente */
+.view-poem-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los botones */
+    margin: 20px 0;
+}
+
+.button {
+    background-color: #ff6f61; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff3b30; /* Color del botón al pasar el cursor */
+}
+
 }
