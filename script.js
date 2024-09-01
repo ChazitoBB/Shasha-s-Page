@@ -1,17 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
     const phrases = [
-        "Without being what I was looking for, you ended up being what I needed.",
-        "There are not enough words to express how much I love you.",
-        "My heart beats faster when you're near.",
-        "I'd rather spend a minute with you than a lifetime without you."
+        "Sometimes, what we find without looking turns out to be what we needed all along.",
+        "Words fall short when it comes to describing how much I cherish you.",
+        "Every moment with you feels like a burst of joy.",
+        "Every time I see you, my day gets brighter."
     ];
 
-    const specialPhrase = "Ваш інтелект і кмітливість не перестають мене дивувати."; // "Tu inteligencia e ingenio nunca dejan de sorprenderme." en ucraniano
+    const specialPhrase = "Я обрав би одну мить поруч із тобою замість вічності на самоті."; // "Elegiría un solo momento a tu lado sobre una eternidad solo." en ucraniano
     const spanishWords = [
-        "Te voy a extrañar mucho 》》》 I'm going to miss you so much",
-        "Por favor no fumes tanto 》》》 Please don't smoke so much",
+        "Te extraño mucho :´c 》》》 I miss you a lot :´c",
+        "Por favor no maltrates tus dedos 》》》 Please don't mistreat your fingers",
         "Eres perfecta tal como eres, no lo olvides 》》》 You are perfect just the way you are, don't forget that.",
-        "Espero verte pronto 》》》 I hope to see you soon",
+        "Eres la mas hermosa, ¿sabias eso? 》》》 You are the most beautiful, did you know that?",
         "Nunca olvides sorreir, lo haces de maravilla 》》》 Never forget to smile, you do it wonderfully.",
     ];
 
